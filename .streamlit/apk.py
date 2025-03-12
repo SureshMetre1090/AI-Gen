@@ -5,7 +5,7 @@ from groq import Groq
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="PragyanAI Groq Streamlit APP")
 # Display the logo at the top of the page
-
+st.title ("Zakir's AI")
 st.divider() # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
